@@ -18,10 +18,10 @@ This project is a web application built with Streamlit that automates Explorator
 
 ## Installation
 
-To run this application, ensure you have Python installed, and then install the required libraries using pip:
+To run this application, ensure you have Python installed, and then install the required libraries listed in the requirements.txt file:
 
 ```bash
-pip install streamlit pandas numpy matplotlib pandas_bokeh missingno
+pip install -r requirements.txt
 ```
 
 ## Usage
