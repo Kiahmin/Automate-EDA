@@ -38,7 +38,18 @@ pip install -r requirements.txt
    streamlit run app.py --server.enableXsrfProtection false
    ```
 4. Explore the Application:
-  - Dataset Overview Tab: View the dataset, basic statistics, correlation chart, and missing values distribution.
-  - Individual Column Stats Tab: Analyze and visualize statistics for selected continuous or categorical features.
-  - Feature Relationships Tab: Examine relationships between features with scatter plots, including color encoding for categorical features.
+  - **Dataset Overview Tab**: View the dataset, basic statistics, correlation chart, and missing values distribution.
+  - **Individual Column Stats Tab**: Analyze and visualize statistics for selected continuous or categorical features.
+  - **Feature Relationships Tab**: Examine relationships between features with scatter plots, including color encoding for categorical features.
+
+## Sample Dataset
+You can use the Titanic Dataset from Kaggle as a sample dataset to explore the app's features.
+
+## Dependencies
+Streamlit
+Pandas
+Numpy
+Bokeh==2.4.3
+Matplotlib
+Missingno
 
